@@ -26,7 +26,7 @@
 ## 系统架构
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Edge[端侧设备]
         C[摄像头采集] --> D[轻量目标检测]
         D --> G[变化触发 / 冷却 / 心跳]
