@@ -2,7 +2,6 @@
 
 **面向路侧视觉事件的端云协同原型：端侧轻量检测与事件筛选，主机 VLM 问答，持久化重传和分段计时。**
 
-维护者：覃毅（Yi Qin）。结合嵌入式/ARM 部署与车载边缘计算背景开发，代码由 Codex 辅助编写。
 端侧通过 jetson-inference 的公开 Python API 调用 detectNet；云侧使用 OpenAI 兼容的图文接口，可对接 vLLM 或 llama-server。
 
 ## 功能
