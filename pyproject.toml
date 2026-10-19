@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roadside-multimodal-agent"
+version = "0.1.0"
+description = "Event-driven edge-cloud roadside visual assistant"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Yi Qin"}]
+dependencies = ["fastapi==0.141.1", "pydantic==2.13.5", "httpx==0.28.1", "uvicorn==0.53.0", "Pillow==12.2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "build==1.6.1"]
+
+[project.scripts]
+rma = "rma.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rma = ["data/*.md", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
