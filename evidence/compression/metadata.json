@@ -1,0 +1,8 @@
+{
+  "image_size": [
+    960,
+    540
+  ],
+  "source": "user image or explicitly synthetic fixture",
+  "quality_assessment": "not measured; bytes and encoding time only"
+}

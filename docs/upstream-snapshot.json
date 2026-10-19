@@ -1,0 +1,111 @@
+{
+  "checked_date": "2026-10-19",
+  "repositories": [
+    {
+      "repository": "dusty-nv/jetson-inference",
+      "url": "https://github.com/dusty-nv/jetson-inference",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/dusty-nv/jetson-inference/45da40a8f3c180191b269f57f736caaa025b8a69/README.md",
+          "sha256": "979513b99a3a7ccd3dea68c178036748be1a4867d7ca0b3c5ef50377ca8af801",
+          "bytes": 27140,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/dusty-nv/jetson-inference/45da40a8f3c180191b269f57f736caaa025b8a69/LICENSE.md",
+          "sha256": "cddaa9d5583a7705cd4734a6af4b421bca9016ba6af854c51efbfcbe19a4a893",
+          "bytes": 1147,
+          "status": "retrieved"
+        },
+        {
+          "path": "python/examples/detectnet.py",
+          "url": "https://raw.githubusercontent.com/dusty-nv/jetson-inference/45da40a8f3c180191b269f57f736caaa025b8a69/python/examples/detectnet.py",
+          "sha256": "a5606fca6d38eaa17c787a3c9b67eeb6d45ad7fa47c37f3a2c3f2ce9c6a26f14",
+          "bytes": 3609,
+          "status": "retrieved"
+        }
+      ],
+      "commit": "45da40a8f3c180191b269f57f736caaa025b8a69",
+      "default_branch": "master",
+      "license": "MIT"
+    },
+    {
+      "repository": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/412a363c655b479279d3050d0d1c67a5733697b4/README.md",
+          "sha256": "dc2d34687c844ecf929d9e9a9c9c78e8023b52abf3b2b3d039600c79016673b6",
+          "bytes": 7470,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/412a363c655b479279d3050d0d1c67a5733697b4/LICENSE",
+          "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+          "bytes": 1078,
+          "status": "retrieved"
+        },
+        {
+          "path": "docs/multimodal.md",
+          "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/412a363c655b479279d3050d0d1c67a5733697b4/docs/multimodal.md",
+          "sha256": "2c4089673241d6a6cccc4bd577c9d282976ea61596948b13db3f5decd60788bb",
+          "bytes": 5053,
+          "status": "retrieved"
+        }
+      ],
+      "commit": "412a363c655b479279d3050d0d1c67a5733697b4",
+      "default_branch": "master",
+      "license": "MIT"
+    },
+    {
+      "repository": "QwenLM/Qwen3-VL",
+      "url": "https://github.com/QwenLM/Qwen3-VL",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-VL/96588727e44c78b25ba03ea03b8e12f7e64fd0da/README.md",
+          "sha256": "fc21106258c51e0b91a652eef12f5925becb146ea8b8c79a4251ac2e89a2f1ac",
+          "bytes": 52828,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-VL/96588727e44c78b25ba03ea03b8e12f7e64fd0da/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "status": "retrieved"
+        }
+      ],
+      "commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repository": "yunxiao11xie/ai-to-edge-deployment",
+      "url": "https://github.com/yunxiao11xie/ai-to-edge-deployment",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/yunxiao11xie/ai-to-edge-deployment/a60042523c1c02d7611e718865d766c446912f21/README.md",
+          "sha256": "a68b434a4d70843334eacd1f1b5bc618b6d3f2ba643a81630aefce87fb57c7e8",
+          "bytes": 7571,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/yunxiao11xie/ai-to-edge-deployment/a60042523c1c02d7611e718865d766c446912f21/LICENSE",
+          "sha256": "f863978a255b6c89e0180b1f24cc3e84a0c33fa4078ec8b0d4c19de773b70b86",
+          "bytes": 1069,
+          "status": "retrieved"
+        }
+      ],
+      "commit": "a60042523c1c02d7611e718865d766c446912f21",
+      "default_branch": "main",
+      "license": "MIT"
+    }
+  ]
+}

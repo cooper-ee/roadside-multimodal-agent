@@ -1,0 +1,65 @@
+running egg_info
+writing src\roadside_multimodal_agent.egg-info\PKG-INFO
+writing dependency_links to src\roadside_multimodal_agent.egg-info\dependency_links.txt
+writing entry points to src\roadside_multimodal_agent.egg-info\entry_points.txt
+writing requirements to src\roadside_multimodal_agent.egg-info\requires.txt
+writing top-level names to src\roadside_multimodal_agent.egg-info\top_level.txt
+reading manifest file 'src\roadside_multimodal_agent.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\roadside_multimodal_agent.egg-info\SOURCES.txt'
+running bdist_wheel
+running build
+running build_py
+copying src\rma\api.py -> build\lib\rma
+copying src\rma\backend.py -> build\lib\rma
+copying src\rma\cli.py -> build\lib\rma
+copying src\rma\config.py -> build\lib\rma
+copying src\rma\schema.py -> build\lib\rma
+copying src\rma\service.py -> build\lib\rma
+copying src\rma\vision.py -> build\lib\rma
+copying src\rma\__init__.py -> build\lib\rma
+running egg_info
+writing src\roadside_multimodal_agent.egg-info\PKG-INFO
+writing dependency_links to src\roadside_multimodal_agent.egg-info\dependency_links.txt
+writing entry points to src\roadside_multimodal_agent.egg-info\entry_points.txt
+writing requirements to src\roadside_multimodal_agent.egg-info\requires.txt
+writing top-level names to src\roadside_multimodal_agent.egg-info\top_level.txt
+reading manifest file 'src\roadside_multimodal_agent.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\roadside_multimodal_agent.egg-info\SOURCES.txt'
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\rma
+copying build\lib\rma\api.py -> build\bdist.win-amd64\wheel\.\rma
+copying build\lib\rma\backend.py -> build\bdist.win-amd64\wheel\.\rma
+copying build\lib\rma\cli.py -> build\bdist.win-amd64\wheel\.\rma
+copying build\lib\rma\config.py -> build\bdist.win-amd64\wheel\.\rma
+copying build\lib\rma\schema.py -> build\bdist.win-amd64\wheel\.\rma
+copying build\lib\rma\service.py -> build\bdist.win-amd64\wheel\.\rma
+copying build\lib\rma\vision.py -> build\bdist.win-amd64\wheel\.\rma
+copying build\lib\rma\__init__.py -> build\bdist.win-amd64\wheel\.\rma
+running install_egg_info
+Copying src\roadside_multimodal_agent.egg-info to build\bdist.win-amd64\wheel\.\roadside_multimodal_agent-0.1.0-py3.10.egg-info
+running install_scripts
+creating build\bdist.win-amd64\wheel\roadside_multimodal_agent-0.1.0.dist-info\WHEEL
+creating 'D:\\2003Qinyi\\personalResume\\outputs\\github-projects-20261019\\roadside-multimodal-agent\\artifacts\\wheels\\.tmp-x_td8myk\\roadside_multimodal_agent-0.1.0-py3-none-any.whl' and adding 'build\\bdist.win-amd64\\wheel' to it
+adding 'rma/__init__.py'
+adding 'rma/api.py'
+adding 'rma/backend.py'
+adding 'rma/cli.py'
+adding 'rma/config.py'
+adding 'rma/schema.py'
+adding 'rma/service.py'
+adding 'rma/vision.py'
+adding 'roadside_multimodal_agent-0.1.0.dist-info/licenses/LICENSE'
+adding 'roadside_multimodal_agent-0.1.0.dist-info/METADATA'
+adding 'roadside_multimodal_agent-0.1.0.dist-info/WHEEL'
+adding 'roadside_multimodal_agent-0.1.0.dist-info/entry_points.txt'
+adding 'roadside_multimodal_agent-0.1.0.dist-info/top_level.txt'
+adding 'roadside_multimodal_agent-0.1.0.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+Successfully built roadside_multimodal_agent-0.1.0-py3-none-any.whl
+* Getting build dependencies for wheel...
+* Building wheel...

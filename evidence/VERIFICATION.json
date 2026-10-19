@@ -1,0 +1,47 @@
+{
+  "checked_date": "2026-10-19",
+  "project": "roadside-multimodal-agent",
+  "status": "passed",
+  "tests_passed": 5,
+  "python": "3.10.20",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "fastapi": "0.141.1",
+    "pydantic": "2.13.5",
+    "httpx": "0.28.1",
+    "pytest": "9.1.1",
+    "Pillow": "12.2.0"
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-ra"
+      ],
+      "exit_code": 0,
+      "log": "check-00.log"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "rma.cli",
+        "demo",
+        "--output",
+        "<output>\\demo"
+      ],
+      "exit_code": 0,
+      "log": "check-01.log"
+    }
+  ],
+  "not_executed": [
+    "GitHub Actions",
+    "Docker build",
+    "Jetson/Raspberry Pi device inference",
+    "vLLM/VLM neural inference"
+  ],
+  "notes": "CPU/offline and protocol verification only; see separate raw simulator and HTTP evidence",
+  "wheel_build": "passed"
+}

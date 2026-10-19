@@ -1,0 +1,53 @@
+{
+  "first": {
+    "event_id": "fixture-230d96ed-dc68-4b8e-9b9f-88f6f4bba78c",
+    "node_id": "offline-fixture",
+    "backend": "mock",
+    "answer": "[MOCK/协议演示，未识别图像] 输入检测标签：car。问题：请描述道路场景，区分可见事实与推测。",
+    "rules": {
+      "people": 0,
+      "vehicles": 1,
+      "priority": "normal",
+      "suggested_tool": "record_scene",
+      "interpretation": "metadata rule only; no collision prediction or vehicle control"
+    },
+    "replayed": false,
+    "timing": {
+      "cloud_queue_ms": 1.5483999995922204,
+      "vlm_ms": 0.007099999493220821,
+      "cloud_processing_ms": 1.564299998790375,
+      "edge_processing_ms": 0.0
+    },
+    "tool_action": "suggestion_only",
+    "image_bytes": 8254
+  },
+  "replay": {
+    "event_id": "fixture-230d96ed-dc68-4b8e-9b9f-88f6f4bba78c",
+    "node_id": "offline-fixture",
+    "backend": "mock",
+    "answer": "[MOCK/协议演示，未识别图像] 输入检测标签：car。问题：请描述道路场景，区分可见事实与推测。",
+    "rules": {
+      "people": 0,
+      "vehicles": 1,
+      "priority": "normal",
+      "suggested_tool": "record_scene",
+      "interpretation": "metadata rule only; no collision prediction or vehicle control"
+    },
+    "replayed": true,
+    "timing": {
+      "cloud_queue_ms": 1.5483999995922204,
+      "vlm_ms": 0.007099999493220821,
+      "cloud_processing_ms": 1.564299998790375,
+      "edge_processing_ms": 0.0
+    },
+    "tool_action": "suggestion_only",
+    "image_bytes": 8254
+  },
+  "qa": {
+    "event_id": "fixture-230d96ed-dc68-4b8e-9b9f-88f6f4bba78c",
+    "question": "图中有哪些车辆？",
+    "answer": "[MOCK/协议演示，未识别图像] 输入检测标签：car。问题：图中有哪些车辆？",
+    "backend": "mock",
+    "duration_ms": 0.010300000212737359
+  }
+}
